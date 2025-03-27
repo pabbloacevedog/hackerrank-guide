@@ -9,5 +9,9 @@
         }
       ]
     }
-  ]
+  ],
+  "build": {
+    "command": "npm run docs:build",
+    "outputDirectory": "docs/.vitepress/dist"
+  }
 }
